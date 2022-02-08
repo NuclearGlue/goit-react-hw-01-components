@@ -13,3 +13,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style: none;
+}
+.stat-list {
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+TransactionHistory .percentage {
+  margin-top: 10px;
+}
+
+.friend-item {
+  display: flex;
+}
+.friend-avatar {
+  margin-left: 10px;
+}
